@@ -1,11 +1,13 @@
 package DTO;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
 public class Example implements Serializable {
 	String title;
 	String singer;
 	String genre;
+	public ArrayList<String> test = new ArrayList<>();
 
 	public String getTitle() {
 		return title;
